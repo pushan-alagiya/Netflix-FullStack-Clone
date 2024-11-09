@@ -4,7 +4,7 @@ A full-stack Netflix-inspired streaming platform built with the MERN stack (Mong
 
 ![Image](https://github.com/pushan-alagiya/Netflix-FullStack-Clone/blob/main/frontend/public/Screenshot%20From%202024-11-09%2017-56-17.png?raw=true)
 
-## FeaturesS
+## Features
 
 - **User Authentication**: Secure user sign-up, login, and logout using JSON Web Tokens (JWT) and bcrypt for hashing passwords.
 - **Movie and TV Show Browsing**: A categorized and paginated catalog of movies and TV shows.
