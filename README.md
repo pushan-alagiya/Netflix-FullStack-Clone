@@ -1,37 +1,81 @@
-## Crafting a Full-Stack Netflix Clone (MERN Stack) 🚀
+# Netflix Clone Full-Stack Project
 
-![Image](https://github.com/pushan-alagiya/Netflix-FullStack-Clone/blob/main/frontend/public/screenshot-for-readme.png?raw=true)
+A full-stack Netflix-inspired streaming platform built with the MERN stack (MongoDB, Express.js, React, Node.js) that provides users with an immersive experience to browse, search, and stream movies and TV shows.
 
-#### Using TMDb API: https://github.com/pushan-alagiya/netflix-mainpage
+![Image](https://github.com/pushan-alagiya/Netflix-FullStack-Clone/blob/main/frontend/public/Screenshot%20From%202024-11-09%2017-56-17.png?raw=true)
 
-### Current Endeavor: Embracing Complexity
+## FeaturesS
 
-Currently, I'm in the process of diving headfirst into the world of Node.js and simultaneously creating a captivating full-stack Netflix clone using the power-packed MERN stack (MongoDB, Express.js, React, Node.js).
+- **User Authentication**: Secure user sign-up, login, and logout using JSON Web Tokens (JWT) and bcrypt for hashing passwords.
+- **Movie and TV Show Browsing**: A categorized and paginated catalog of movies and TV shows.
+- **Search Functionality**: Search bar for quick access to content by title or genre.
+- **Responsive Design**: Optimized for all device types using CSS3 and responsive design libraries.
+- **Dynamic Recommendations**: Displays trending content and suggests similar titles based on viewing history.
 
-### Beyond the Surface: Unveiling the Complexity
+## Tech Stack
 
-On the surface, the journey might appear straightforward, but as I delve deeper, I'm uncovering layers of complexity that truly challenge and invigorate.
+### Frontend
 
-### Mastering Node.js: Shaping Server-Side Logic
+- **React.js**: Main UI library for creating dynamic, component-based user interfaces.
+- **React Router DOM**: Manages in-app routing for a seamless single-page application (SPA) experience.
+- **Axios**: For HTTP requests to interact with the backend API.
+- **Tailwind** to enhance UI with ready-made components and responsive design features.
 
-Mastering Node.js has provided me with the tools to meticulously shape the server-side logic. The result is a robust foundation that powers the entire application.
+### Backend
 
-### MERN Stack Excellence: Seamless User Experience
+- **Node.js**: JavaScript runtime for server-side development.
+- **Express.js**: Web application framework for building RESTful APIs.
+- **MongoDB**: NoSQL database for efficient data storage and retrieval.
+- **JWT (JSON Web Token)**: Secure token-based authentication for managing user sessions.
+- **bcrypt**: Password hashing to enhance user security.
 
-The MERN stack synergy has ensured a seamless and immersive user experience. From MongoDB's efficient data storage to React's dynamic frontend capabilities, every piece falls into place.
+## Project Setup
 
-### The Hidden Challenges: Complexity in Simplicity
+### Prerequisites
 
-But don't be fooled by the seeming simplicity. Crafting RESTful APIs, implementing advanced authentication methods, designing intricate database models, and mastering state management are just a few aspects that keep me engaged and learning.
+- Node.js (v14+)
+- MongoDB (local instance or MongoDB Atlas)
 
-### Navigating the Web of Complexity: Deployment and UI/UX Magic
+### Installation
 
-Navigating this web of complexity involves mastering the art of deployment, understanding synchronous and asynchronous programming nuances, and cultivating a deep appreciation for UI/UX design.
+1. **Clone the repository**
 
-### Expanding Horizons: Skill Set and Creativity
+   ```bash
+   git clone https://github.com/pushan-alagiya/Netflix-FullStack-Clone
+   cd netflix-clone
+   ```
 
-This journey isn't just about technology; it's about expanding my skill set, nurturing creativity, and fostering a lasting passion for web development.
+2. **Install dependencies for both frontend and backend**
 
-### Cheers to the Challenge! 🥂
+   ```bash
+   # Install backend dependencies
+   cd server
+   npm install
 
-Here's to embracing challenges, diving deep into the intricacies of learning, and celebrating the multifaceted world of tech! 💡👩‍💻 #Nodejs #MERNStack #WebDevelopment #NetflixClone #LearningInProgress
+   # Install frontend dependencies
+   cd ../client
+   npm install
+   ```
+
+3. **Environment Variables**
+
+   Create a `.env` file in the `server` directory with the following variables:
+
+   ```plaintext
+   MONGODB_URI=your_mongodb_uri
+   JWT_SECRET=your_jwt_secret
+   ```
+
+4. **Running the Project**
+
+   Start the backend and frontend servers concurrently.
+
+   ```bash
+   # Start backend server
+   cd server
+   npm run dev
+
+   # Start frontend
+   cd ../client
+   npm start
+   ```
