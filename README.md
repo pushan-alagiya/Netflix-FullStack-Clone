@@ -1,37 +1,63 @@
-## Crafting a Full-Stack Netflix Clone (MERN Stack) 🚀
+# Netflix Clone 🎬
 
-![Image](https://github.com/pushan-alagiya/Netflix-FullStack-Clone/blob/main/frontend/public/screenshot-for-readme.png?raw=true)
+Welcome to the **Netflix Clone** project! This is a fully-functional web application built using the MERN (MongoDB, Express, React, Node.js) stack. The app mimics the popular streaming service Netflix, offering users the ability to browse, search, and stream movies and TV shows.
 
-#### Using TMDb API: https://github.com/pushan-alagiya/netflix-mainpage
+## Table of Contents
 
-### Current Endeavor: Embracing Complexity
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Environment Variables](#environment-variables)
+  - [Running the App](#running-the-app)
+- [API Endpoints](#api-endpoints)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Currently, I'm in the process of diving headfirst into the world of Node.js and simultaneously creating a captivating full-stack Netflix clone using the power-packed MERN stack (MongoDB, Express.js, React, Node.js).
+## Features
 
-### Beyond the Surface: Unveiling the Complexity
+- **User Authentication**: Secure sign-up and sign-in using JWT.
+- **Browse Movies & TV Shows**: Browse through a wide variety of movies and TV shows.
+- **Search Functionality**: Search for your favorite movies and shows.
+- **Streaming**: Stream video content directly within the app.
+- **Responsive Design**: Fully responsive for mobile, tablet, and desktop devices.
 
-On the surface, the journey might appear straightforward, but as I delve deeper, I'm uncovering layers of complexity that truly challenge and invigorate.
+## Screenshots
 
-### Mastering Node.js: Shaping Server-Side Logic
+![Homepage]()
+![Movie Details]()
+![TV Details]()
 
-Mastering Node.js has provided me with the tools to meticulously shape the server-side logic. The result is a robust foundation that powers the entire application.
+## Technologies Used
 
-### MERN Stack Excellence: Seamless User Experience
+- **Frontend**: React, Redux, Tailwind CSS
+- **Backend**: Node.js, Express.js, MongoDB
+- **Authentication**: JWT (JSON Web Token)
+- **Deployment**: Docker, Heroku (or your preferred service)
 
-The MERN stack synergy has ensured a seamless and immersive user experience. From MongoDB's efficient data storage to React's dynamic frontend capabilities, every piece falls into place.
+## Getting Started
 
-### The Hidden Challenges: Complexity in Simplicity
+### Prerequisites
 
-But don't be fooled by the seeming simplicity. Crafting RESTful APIs, implementing advanced authentication methods, designing intricate database models, and mastering state management are just a few aspects that keep me engaged and learning.
+Before you begin, ensure you have the following installed:
 
-### Navigating the Web of Complexity: Deployment and UI/UX Magic
+- Node.js (v14 or higher)
+- MongoDB
+- TMDB API Key
+- Git
 
-Navigating this web of complexity involves mastering the art of deployment, understanding synchronous and asynchronous programming nuances, and cultivating a deep appreciation for UI/UX design.
+### Installation
 
-### Expanding Horizons: Skill Set and Creativity
+1. **Clone the repository:**
 
-This journey isn't just about technology; it's about expanding my skill set, nurturing creativity, and fostering a lasting passion for web development.
+   ```bash
+   git clone https://github.com/Diivvuu/mern-netflix-clone.git
+   cd netflix-clone
+   ```
 
-### Cheers to the Challenge! 🥂
-
-Here's to embracing challenges, diving deep into the intricacies of learning, and celebrating the multifaceted world of tech! 💡👩‍💻 #Nodejs #MERNStack #WebDevelopment #NetflixClone #LearningInProgress
+   for frontend
+   axios lucide-react react-player react-hot-toast react-router-dom zustand
