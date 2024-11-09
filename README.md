@@ -42,7 +42,7 @@ A full-stack Netflix-inspired streaming platform built with the MERN stack (Mong
 
    ```bash
    git clone https://github.com/pushan-alagiya/Netflix-FullStack-Clone
-   cd netflix-clone
+   cd Netflix-FullStack-Clone
    ```
 
 2. **Install dependencies for both frontend and backend**
