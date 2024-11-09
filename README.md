@@ -1,6 +1,6 @@
 ## Crafting a Full-Stack Netflix Clone (MERN Stack) 🚀
 
-![Image](https://github.com/pushan-alagiya/netflix/blob/main/src/assets/Screenshot%20from%202023-08-09%2001-43-08.png?raw=true)
+![Image](https://github.com/pushan-alagiya/Netflix-FullStack-Clone/blob/main/frontend/public/screenshot-for-readme.png?raw=true)
 
 #### Using TMDb API: https://github.com/pushan-alagiya/netflix-mainpage
 
