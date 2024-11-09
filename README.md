@@ -49,11 +49,10 @@ A full-stack Netflix-inspired streaming platform built with the MERN stack (Mong
 
    ```bash
    # Install backend dependencies
-   cd server
    npm install
 
    # Install frontend dependencies
-   cd ../client
+   cd ./frontend
    npm install
    ```
 
@@ -76,6 +75,6 @@ A full-stack Netflix-inspired streaming platform built with the MERN stack (Mong
    npm run dev
 
    # Start frontend
-   cd ../client
+   cd ./frontend
    npm start
    ```
